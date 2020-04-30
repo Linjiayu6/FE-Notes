@@ -26,7 +26,6 @@ Plugin:
 Plugin 的实现原理主要是利用了 webpack 的事件流机制，在插件的 apply 方法里面通过注册相应的事件，通过 webpack 触发该事件来介入到流程中。这里用 Html-webpack-plugin 源码作为插件的一个编写实例来介绍，其在每一个操作节点都触发一个事件，更好地让其他插件进行扩展，我们也可以参考该方式提高自己插件的灵活性。
 ```
 
-***
 
 # 2. Tree shaking
 
@@ -53,8 +52,6 @@ export function cube(x) {
 }
 ```
 
-***
-
 # 3. 代码拆分方法
 
 1. CommonsChunkPlugin 提取公共依赖模块提取 (防止模块打包的重复)  分离业务和第三方常用库 
@@ -62,7 +59,7 @@ export function cube(x) {
 3. 手动引入 entry 人工区分
 
 
-# 提高 webpack 构建速度
+# 4. 提高 webpack 构建速度
 
 CommonsChunkPlugin用来提取第三方库，往往这些第三方库都是长久不更新的，除非你手动更新办吧。每次打包都会重新再构建。
 
