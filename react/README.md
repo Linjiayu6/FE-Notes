@@ -1,5 +1,4 @@
 
- `[TOC]`
  
 # 1. 组件, Virtual Dom
 > [[React] 组件是什么? Virtual Dom?](https://zhuanlan.zhihu.com/p/137445614)

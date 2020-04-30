@@ -1,4 +1,3 @@
-[toc]
 
 # 1. Loader 和 Plugin 什么区别
 

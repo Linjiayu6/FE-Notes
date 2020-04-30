@@ -1,14 +1,17 @@
 
+# CSRF
 
 [[security] CSRF](https://zhuanlan.zhihu.com/p/136468310)
 
 ```
-CSRF 是什么?  流程是什么?
-怎么攻击的?
-通过什么方法避免被攻击?
+1. CSRF 是什么?  流程是什么?
+
+2. 怎么攻击的?
+
+3. 通过什么方法避免被攻击?
 ```
 
-- 案例 youtube CSRF 漏洞
+案例 youtube CSRF 漏洞
 添加当前视频为Favorites
 利用漏洞，提高视频的流行度
 
