@@ -118,3 +118,24 @@ b执行的时候, 用到了a_EC.VO  a的执行下上文的变量对象。
    三种 (JSON, 浅拷贝+循环, 浅拷贝+循环+校验)
 6. 会遇到什么问题? 怎么解决?
 ```
+
+## [[JS基础] 13 - 其他 JS 基础](https://zhuanlan.zhihu.com/p/142862978)
+
+## [[JS基础] 14 - V8的回收机制 ♻️ / 内存泄露](https://zhuanlan.zhihu.com/p/143695907)
+
+## [[JS基础] 15 - 节流 防抖 / Event Bus / new实现](https://zhuanlan.zhihu.com/p/143738337)
+
+async / await promise generator
+
+4 - instanceOf 实现
+5 -  bind / apply / call 实现
+
+Object.create()、new Object()和{}的区别
+https://juejin.im/post/5d578bacf265da03ee6a548a
+创建个对象
+
+实现类的继承
+https://www.cxymsg.com/guide/jsWritten.html#%E6%A8%A1%E6%8B%9Fobject-create
+
+实现JSON.parse
+实现Promise

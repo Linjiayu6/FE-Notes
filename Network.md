@@ -15,3 +15,8 @@
 
 ## [[Network] 7 - 跨域解决](https://zhuanlan.zhihu.com/p/142374083)
 
+## [[Network] 8 - 如果你的域名被劫持 / DNS解析失败 你能怎么办?](https://zhuanlan.zhihu.com/p/143009254)
+
+
+
+缓存问题https://www.cxymsg.com/guide/httpWritten.html#%E7%BC%93%E5%AD%98%E9%A2%98
