@@ -92,3 +92,7 @@ constructor(props) {
   super(props)
 }
 ```
+
+## [[React] 8 - React 自身或工程性能优化点?](https://zhuanlan.zhihu.com/p/144168314)
+
+## [[React] 9 - Redux 图解原理](https://zhuanlan.zhihu.com/p/144222700)
