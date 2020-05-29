@@ -50,7 +50,7 @@ UI层在小程序 客户端 小程序都是差不多的
 - import ReactDOM from 'react-dom'; ???
 ```
 
-## [[React] 6 - Fiber](https://zhuanlan.zhihu.com/p/133740493)
+## [[React] 6 - React Fiber 基于浏览器的单线程调度算法](https://zhuanlan.zhihu.com/p/133740493)
 
 ```
 - React Fiber? 解决什么问题?
@@ -96,3 +96,11 @@ constructor(props) {
 ## [[React] 8 - React 自身或工程性能优化点?](https://zhuanlan.zhihu.com/p/144168314)
 
 ## [[React] 9 - Redux 图解原理](https://zhuanlan.zhihu.com/p/144222700)
+
+## [[React] 10 - HOC高阶组件 / React Hook](https://zhuanlan.zhihu.com/p/144285225)
+
+## [[React] 11 - diff算法 / 算法简单实现 (15版以下)](https://zhuanlan.zhihu.com/p/144321125)
+
+## [[React] 12 - React16 VDOM 链表结构](https://zhuanlan.zhihu.com/p/144511139)
+
+## [[React] 13 - SSR / CSR / Isomorphism](https://zhuanlan.zhihu.com/p/144538402)
