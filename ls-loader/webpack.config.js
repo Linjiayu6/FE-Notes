@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// 使用插件
+const SelfServicePlugin = require('./plugins/index');
 
 module.exports = {
     entry: path.resolve(__dirname, 'src/index.js'),
@@ -32,7 +34,9 @@ module.exports = {
       new HtmlWebpackPlugin({
         title: 'title', 
         template: 'src/index.html'
-      })
+      }),
+      // 调用插件信息
+      // new SelfServicePlugin({ options: true, test: 'linjiayu' })
     ],
     devServer: {
       contentBase: './dist',

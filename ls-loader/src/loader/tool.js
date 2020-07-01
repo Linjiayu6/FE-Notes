@@ -90,8 +90,8 @@ function execTagToHTML (type, attrs, url, cb = () => {}) {
     el = document.createElement('script')
     el.type = 'text/javascript'
     el.charset = 'utf-8'
-    // el.async = true
-    // el.timeout = 120000 // 超时处理
+    el.async = true
+    el.timeout = 120000
     el.src = url
   }
 
@@ -99,22 +99,20 @@ function execTagToHTML (type, attrs, url, cb = () => {}) {
     el = document.createElement('link')
     el.rel = 'stylesheet'
     el.charset = 'utf-8'
-    // el.timeout = 120000 // 超时处理
+    el.timeout = 120000
     el.href = url
   }
 
   attrs.forEach(({ key, val }) => el.setAttribute(key, val))
 
-  // TODO: ONLOAD 成功 上报
-  // TODO: ONERROR 失败 替换资源 重试
-
+  // ONLOAD 成功回调
   el.onload = function () {
-    console.log('加载成功', type, attrs, url)
-    cb('success', null)
+    cb('onload_success')
   }
+
+  // TODO: ONERROR 失败 回调重试
   el.onerror = function () {
-    console.log('加载失败', type, attrs, url)
-    cb('error', el)
+    cb('onload_error')
   }
 
   head.appendChild(el)
@@ -133,13 +131,38 @@ const supportLS = (function (storage) {
   }
 })(window.localStorage)
 
-// const supportPromise = () => {
-//   if 
-// }
+const supportPromise = (
+  function (global) {
+    if (!global) return false
+    try {
+      var NativePromise = global['Promise']
+      var nativePromiseSupported =
+      NativePromise &&
+      // Some of these methods are missing from
+      // Firefox/Chrome experimental implementations
+      'resolve' in NativePromise &&
+      'reject' in NativePromise &&
+      'all' in NativePromise &&
+      'race' in NativePromise &&
+      // Older version of the spec had a resolver object
+      // as the arg rather than a function
+      (function () {
+        var resolve
+        // eslint-disable-next-line
+        new NativePromise(function (r) { resolve = r })
+        return typeof resolve === 'function'
+      })()
+      return nativePromiseSupported
+    } catch (error) {
+      return false
+    }
+  }
+)(window)
 
 export default {
   request,
   execContentToHTML,
   execTagToHTML,
-  supportLS
+  supportLS,
+  supportPromise
 }

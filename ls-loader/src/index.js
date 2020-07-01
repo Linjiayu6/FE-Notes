@@ -1,6 +1,7 @@
 
 import Loader from './loader/main.js'
 
+// 这个项目的所有资源信息
 const stateJSON = {
   "version": 3,
   "resources": [
@@ -114,7 +115,7 @@ const stateJSON = {
   ]
 }
 
-// 资源队列
+// 当前页面所需要的资源队列
 const data = {
   css: ["comment"],
   js: ["dpOwl", "manifest", "vendor", "comment"]
@@ -152,17 +153,15 @@ const resources = [
   }
 ]
 
+// 当前页面的配置信息
 const config = {
   version: stateJSON.version,
   "projectName": "456fdf20",
   resources: resources,
-  cdns: [
-    "//s3plu.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:456fdf20/",
-    // "//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:456fdf20/",
-    // "https://jarvas-static.meituan.net/file/456fdf20?filePath=",
-    "https://jarva-static.meituan.net/file/456fdf20?filePath=",
-    "//sully.meituan.com/file/456fdf20?filePath=",
-  ]
+  // publicPath: '//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:456fdf20/',
+  publicPath: '',
+  fallbackCDN: 'https://jarva-static.meituan.net/file/456fdf20?filePath=',
+  fallbackCDN2: '//sully.meituan.com/file/456fdf20?filePath=', // 兼容: 在原有基础上, 增加第三个回滚域名
 }
 
 // export default Loader
