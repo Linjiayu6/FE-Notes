@@ -1,5 +1,6 @@
 
 import Tool from './tool'
+import CRC32 from './crc32'
 
 class Chunk {
   constructor(CDNs, projectName, state) {
@@ -53,52 +54,65 @@ class Chunk {
 
   load () {
     // 网络请求
-    return this.httpFetch()
-  }
-
-  render () {
-    // 有内容返回, 直接内联至模板中
-    Tool.execContentToHTML(this.type, this.attrs, this._content)
-  }
-
-  httpFetch () {
     return new Promise((resolve, reject) => {
       Tool.request(this.link, (err, content) => {
         // 如果http请求外链失败, 则reject逻辑
         if (err) {
+          console.error('接口返回异常', err)
+          this._content = ''
           this.retry += 1 // 重试重置
-          return reject(err)
-        } else {
-          this._content = content
-          this._contentFrom = 'http' // 资源从网络请求来
-          // TODO: 保存到storage里
-          resolve(content)
+          reject(err)
+          return
         }
+
+        // if (this.checksum !== CRC32(content)) {
+        //   console.error('资源校验不通过', CRC32(content), this.checksum)
+        //   this._content = ''
+        //   this.retry += 1 // 重试重置
+        //   reject(err)
+        //   return
+        // }
+
+        // 能在content里保存的 都是crc32校验后 完全正确的
+        this._content = content
+        this._contentFrom = 'http' // 资源从网络请求来
+        // TODO: 保存到storage里
+        resolve(content)
       })
     })
   }
 
+  render () {
+    console.log('重试次数 已成功', this.retry)
+    // 有内容返回, 直接内联至模板中
+    Tool.execContentToHTML(this.type, this.attrs, this._content)
+  }
+
+  // 从 main.js 传来 resolve
   fallback () {
-    return new Promise((resolve, reject) => {
-      this._contentFrom = 'externalLink' // 内容从外链来
-      Tool.execTagToHTML(this.type, this.attrs, this.link, flag => {
-        if (flag === 'onload_success') {
-          console.log('加载成功了')
-          resolve()
-          return
-        }
-
-        this.retry += 1 // 重试次数
-        console.log('加载失败 重试ing', this.retry)
-
-        // Tool.execTagToHTML(this.type, this.attrs, this.link, flag => {
-        //   if (flag === 'onload_success') {
-        //     console.log('加载成功了')
-        //     return
-        //   }
-
-        //   console.log('加载失败 重试ing', this.retry)
-        // })
+    return new Promise((resolve) => {
+      // 第二次重试
+      this.load()
+      // 判断是否成功
+      .then(
+        // 第二次 成功
+        () => this.render(),
+        // 第二次 失败
+        () => new Promise((resolve) => {
+          // 第三次 重试
+          Tool.execTagToHTML(this.type, this.attrs, this.link, flag => {
+            if (flag === 'onload_success') {
+              console.log('外链重试成功....')
+            } else {
+              console.log('外链重试失败 放弃.....', this.retry)
+            }
+            resolve() // 🔥 这句话是关键 说明 可以再往下走
+          })
+        })
+      )
+      .then(() => {
+        console.log(123)
+        resolve() // 🔥 这句话是关键 说明 可以再往下走
       })
     })
   }

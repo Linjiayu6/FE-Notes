@@ -122,12 +122,12 @@ const data = {
 }
 
 const resources = [
-  {
-    "name": "comment",
-    "type": "css",
-    "filename": "css/comment.1ff1965f.css",
-    "checksum": 192696293
-  },
+  // {
+  //   "name": "comment",
+  //   "type": "css",
+  //   "filename": "css/comment.1ff1965f.css",
+  //   "checksum": 192696293
+  // },
   // {
   //   "name": "dpOwl",
   //   "type": "js",
@@ -143,13 +143,13 @@ const resources = [
     "name": "vendor",
     "type": "js",
     "filename": "js/vendor.03b2b11d016aac5f5e78.js",
-    "checksum": 1062775765
+    "checksum": 702051719
   },
   {
     "name": "comment",
     "type": "js",
     "filename": "js/comment.cf64b7cb28a2f9e850a3.js",
-    "checksum": 329335313
+    "checksum": 139498220
   }
 ]
 
@@ -158,9 +158,8 @@ const config = {
   version: stateJSON.version,
   "projectName": "456fdf20",
   resources: resources,
-  // publicPath: '//s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:456fdf20/',
-  publicPath: '',
-  fallbackCDN: 'https://jarva-static.meituan.net/file/456fdf20?filePath=',
+  publicPath: '//s3plus111.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:456fdf20/',
+  fallbackCDN: 'https://jarvas111-static.meituan.net/file/456fdf20?filePath=',
   fallbackCDN2: '//sully.meituan.com/file/456fdf20?filePath=', // 兼容: 在原有基础上, 增加第三个回滚域名
 }
 
