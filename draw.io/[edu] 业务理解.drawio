@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T11:03:49.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="i_2d-61ZR3yWZN66xERe" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T11:04:41.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="EoT3OFGckSrlyRBbW9H4" version="13.6.10" type="github">
   <diagram id="Rec8AMHsE2q6tZvkpwHi" name="Page-1">
     <mxGraphModel dx="1106" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,7 +123,7 @@
           <mxGeometry x="700" y="300" width="120" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="WLZFkZvw7_LWW6aZTqp_-34" value="物料管理 SCM" style="text;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="860" y="308.75" width="100" height="20" as="geometry" />
+          <mxGeometry x="680" y="260" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WLZFkZvw7_LWW6aZTqp_-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLZFkZvw7_LWW6aZTqp_-36" target="WLZFkZvw7_LWW6aZTqp_-40">
           <mxGeometry relative="1" as="geometry" />
