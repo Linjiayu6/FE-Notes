@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T02:37:30.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="at_4uCmMOQZx5tEGX3Nk" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T02:58:23.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="EM7TE9FI9F1uuKcLRwGV" version="13.6.9" type="github">
   <diagram id="Rec8AMHsE2q6tZvkpwHi" name="Page-1">
     <mxGraphModel dx="1106" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,32 +30,41 @@
             <mxPoint x="450" y="582.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-1" value="某课程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="582.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="410" />
+              <mxPoint x="540" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-1" value="某课程" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="480" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-3" value="内容 (what)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="445" width="120" height="35" as="geometry" />
+          <mxGeometry x="590" y="410" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-5" value="方式 (how + where)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="490" width="120" height="35" as="geometry" />
+          <mxGeometry x="590" y="480" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-8" value="学习资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="447.5" width="85" height="30" as="geometry" />
+          <mxGeometry x="710" y="412.5" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-9" value="线上 直播 / 录播 等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="495" width="120" height="30" as="geometry" />
+          <mxGeometry x="720" y="485" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-11" value="老师 (who) ������‍������" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="635" width="120" height="35" as="geometry" />
+          <mxGeometry x="590" y="630" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-13" value="被分配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="637.5" width="55" height="30" as="geometry" />
+          <mxGeometry x="725" y="635" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-14" value="课时数 (how)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="540" width="120" height="35" as="geometry" />
+          <mxGeometry x="590" y="530" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-16" value="时间 (when)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="590" width="120" height="35" as="geometry" />
+          <mxGeometry x="590" y="580" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-24" target="uW_DLqb9Pa4qT4BQbRd9-1">
           <mxGeometry relative="1" as="geometry" />
@@ -68,6 +77,36 @@
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-28" value="语数外等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="417.5" y="535" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-32" target="uW_DLqb9Pa4qT4BQbRd9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-32" value="C端 用户" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-34" value="学习" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-35" target="uW_DLqb9Pa4qT4BQbRd9-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="260" />
+              <mxPoint x="383" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-35" value="C端 营销" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-41" value="推广" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-44" value="吸引" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
