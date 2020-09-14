@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T11:00:25.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="BtdONJ4tfKbYIyRni5yp" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T11:03:49.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="i_2d-61ZR3yWZN66xERe" version="13.6.10" type="github">
   <diagram id="Rec8AMHsE2q6tZvkpwHi" name="Page-1">
     <mxGraphModel dx="1106" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
             <mxPoint x="640" y="497.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-1" value="某课程" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#36393d;fillColor=#eeeeee;" parent="1" vertex="1">
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-1" value="某课程" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="480" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="WLZFkZvw7_LWW6aZTqp_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-3" target="WLZFkZvw7_LWW6aZTqp_-3">
@@ -57,7 +57,7 @@
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-5" value="方式&lt;br&gt;(how)&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="510" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-11" value="老师 (who)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-11" value="老师 (who)" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#36393d;fillColor=#eeeeee;" parent="1" vertex="1">
           <mxGeometry x="700" y="670" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uW_DLqb9Pa4qT4BQbRd9-16" value="时间 (when)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -91,7 +91,7 @@
             <mxPoint x="880" y="607.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLZFkZvw7_LWW6aZTqp_-10" value="教师管理 CRM" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-10" value="教师管理 CRM" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#36393d;fillColor=#eeeeee;" vertex="1" parent="1">
           <mxGeometry x="1000" y="670" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="WLZFkZvw7_LWW6aZTqp_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#E6D0DE;" edge="1" parent="1" source="WLZFkZvw7_LWW6aZTqp_-15" target="uW_DLqb9Pa4qT4BQbRd9-1">
@@ -133,6 +133,24 @@
         </mxCell>
         <mxCell id="WLZFkZvw7_LWW6aZTqp_-40" value="线上 (where)&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#36393d;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="700" y="565" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;fillColor=#E6D0DE;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-45" value="C端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="40" y="35" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-48" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;opacity=60;direction=south;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-49" value="M端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="40" y="55" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-50" value="B端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WLZFkZvw7_LWW6aZTqp_-51" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=3;fillColor=#eeeeee;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
