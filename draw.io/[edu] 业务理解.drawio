@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T10:40:51.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="SQHXUUNCxE0aazJDF4MI" version="13.6.9" type="github"><diagram id="Rec8AMHsE2q6tZvkpwHi" name="Page-1">3Vlbk5s2GP01etwOAgTSI9gkmWk7TbuZSdI31ig2LUauLK/t/Pp+AmEMyOts12u8ffGgo6vPd9GRhLzJcvdepqvFryLjBXKdbIe8KXLdgDH41cC+BpgT1MBc5lkN4Ra4z79zAzoG3eQZX3caKiEKla+64EyUJZ+pDpZKKbbdZt9E0Z11lc75ALifpcUQ/ZxnalGjlDgt/oHn80UzM3ZMzTJtGhtgvUgzsT2CvAR5EymEqr+WuwkvNHcNL3W/dydqDwuTvFQ/0uGOffKy5W/KXf6++ePnPx8/fvn0+Q679TCPabEx/9isVu0bCngGjJiikGoh5qJMi6RFYyk2Zcb1PA6U2ja/CLECEAP4F1dqb8ybbpQAaKGWhamFvyD3X0z/qvBVF34KSVOe7o5rp3tTqherV3iSFQOtxUbO+FNUGO9K5ZyrJ9qRg+3A57lYclgP9JO8SFX+2F1Harxvfmh36PpR5LBC1zGBgkNSdzFxgj3SHaJel+nVmjmSMt0fNVvpButnzEOD4+Hgox6xKR39xxaqPOs5XjZ0soSgaIqiACUhYj5i7wZu13Wq7SJX/H6VVibcQqrpOpCZgEvFd097wtByTYcmUA0zvilu27DHTVZaHIW855y29RGtz2dtGJoTzVYUowjYglmDApYQP0j4musvlDDEgNSKXeYghnX7OEGRjxIfxVPEvAHNQJjqcrlWUvzNJ6IQEpBSlDrEv+VF0YPSIp+XUJwBwRzwWNOfQ+qMTMUyz7IqP9iM1zXvBezXNx8ZmC+wWM99LesFN5FYL5gfvSvlxxex7tkzTYLioIoOguLxM413a5mG3YSvHkQA7oqAK2oAf1QNQFhvb8avowECp+t/OKSvrwF8S2RSRB1EsQ7RGL7p6JFJ/BuLTGJlDfZ/2NW1FgDW4gFrZ3i6+M7r4Z7fBhbaXBtt5JVoCy20gRKKKsHZ8HdeCf24wpF8nX9PH6qhNKsmBGFcEiMy1WNBvlvXqe9S2wjthbEzpN2/puRpIqPvra7WrPU2TBlKAkQTxIZbzFvjn7g9tydD/slV+bepH79KrdH/x+1x2HN7d2y3t21tBMHBmpJGfbKbS9IuGztJ4yc3twCxsFLtQaXanZsj0PNGJ5AOCXzbZ0wc2E3wQmHt92Sd59DuECeE9cXuvyyXAVrzMhT7jTAJR3dwcnMZwrUIijfu4GYjOHvCfHEkvCyzWG4E9E7maz+tHTYemmLsjGw9rl3VYT37TXc/0IN0qbkpH9arAxMj8ji4+aaj82hRsua6e9XhKvhno9/P4iIv+V2ztAiaYL07k7ZBe0ceIhZrTQbCInIQDS336APkDkY0SoSx7tvFmbHqnrZ7eebr47s+DVEUn+x5mMrXXgSTgEKKQVz6uie4E7O8AzQ9YWBaXXuCDqXTzvrNdcvwBSHU88Ep7SQpYM9Vi509S7zRxwTcUwzEcsiglojA/+EmCIrtK3AtOdqndC/5Fw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-14T02:37:30.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="at_4uCmMOQZx5tEGX3Nk" version="13.6.9" type="github">
+  <diagram id="Rec8AMHsE2q6tZvkpwHi" name="Page-1">
+    <mxGraphModel dx="1106" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9T3dmOt2mQuRKZvPXTW-31" target="uW_DLqb9Pa4qT4BQbRd9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9T3dmOt2mQuRKZvPXTW-31" value="年级" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="480" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-9T3dmOt2mQuRKZvPXTW-33" value="&lt;p style=&quot;line-height: 130%&quot;&gt;设定目标(why) + 分配资源&lt;br&gt;&lt;br&gt;- 教学目标&lt;br&gt;- 面向用户&lt;br&gt;- 学习资源&lt;br&gt;- 分配教师&lt;br&gt;等&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="15" y="535" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-1" target="uW_DLqb9Pa4qT4BQbRd9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="582.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-1" value="某课程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-3" value="内容 (what)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="445" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-5" value="方式 (how + where)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-8" value="学习资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="447.5" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-9" value="线上 直播 / 录播 等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="495" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-11" value="老师 (who) ������‍������" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="635" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-13" value="被分配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="637.5" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-14" value="课时数 (how)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-16" value="时间 (when)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW_DLqb9Pa4qT4BQbRd9-24" target="uW_DLqb9Pa4qT4BQbRd9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-24" value="班级" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-27" value="快班/基础班等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="535" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_DLqb9Pa4qT4BQbRd9-28" value="语数外等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="535" width="85" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
